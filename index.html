@@ -16,28 +16,43 @@
       color: #111827;
     }
     .hero {
-      background: linear-gradient(to right, #1f2937, #2563eb);
+      background: linear-gradient(to right, #0f172a, #2563eb);
       color: #ffffff;
-      padding: 80px 20px;
+      padding: 100px 20px 80px;
       text-align: center;
+      position: relative;
     }
     .hero h1 {
-      font-size: 40px;
+      font-size: 44px;
       margin-bottom: 20px;
       font-weight: 700;
     }
     .hero p {
       font-size: 18px;
-      max-width: 650px;
+      max-width: 700px;
       margin: auto;
+    }
+    .marquee {
+      margin-top: 20px;
+      font-size: 14px;
+      background: #e0f2fe;
+      color: #0369a1;
+      padding: 8px 0;
+      overflow: hidden;
+      white-space: nowrap;
+      animation: marquee 12s linear infinite;
+    }
+    @keyframes marquee {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
     }
     .container {
       padding: 60px 20px;
       max-width: 1200px;
       margin: auto;
       background: white;
-      border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      border-radius: 16px;
+      box-shadow: 0 6px 30px rgba(0,0,0,0.06);
       margin-top: -40px;
       position: relative;
       z-index: 2;
@@ -92,6 +107,17 @@
       font-weight: 600;
       margin-bottom: 10px;
     }
+    .testimonial {
+      background: #f1f5f9;
+      padding: 30px;
+      margin-top: 50px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .testimonial p {
+      font-style: italic;
+      color: #475569;
+    }
   </style>
 </head>
 <body>
@@ -99,10 +125,14 @@
     <span class="badge-tech">Powered by Data · Optimized by AI</span>
     <h1>Why Smart Businesses Choose Zeldigital Over Freelancers</h1>
     <p>You're not just hiring a Google Ads specialist. You're partnering with a high-level strategist who's managed over $3M+ in ad spend and delivers consistent results across industries.</p>
+    <a href="https://tidycal.com/hanslacida/hans-private-meeting-20-mins" class="cta">🚀 Start With a Free Strategy Call</a>
+    <div class="marquee">🔥 744% ROAS Case Study • $265K in Revenue from $35K Spend • 788 Leads at $16.95 CPL • Performance Max + GTM & GA4 Expert </div>
   </div>
 
   <div class="container">
-    <h2>Compare: Zeldigital vs. Typical Freelancers</h2>
+    <h2 style="text-align:center; font-size:28px;">Zeldigital vs Typical Freelancers</h2>
+    <p style="text-align:center; color:#6b7280; margin-bottom: 30px;">See why decision-makers trust Zeldigital for serious performance marketing and growth at scale.</p>
+
     <table>
       <tr>
         <th>Category</th>
@@ -131,7 +161,7 @@
       </tr>
       <tr>
         <td>Tech Stack</td>
-        <td>GA4, GTM, Looker, PMax, Server-Side</td>
+        <td>GA4, GTM, Looker, PMax, GTM & GA4 Expert</td>
         <td>Basic Google Ads only</td>
       </tr>
       <tr>
@@ -150,6 +180,11 @@
         <td>No branded presence</td>
       </tr>
     </table>
+
+    <div class="testimonial">
+      <p>“Hans helped us drop our cost per lead by 60% while scaling. His dashboard insights are next level.”</p>
+      <p>— Tyler, OCSEO Agency</p>
+    </div>
 
     <div style="text-align: center;">
       <p style="margin-top: 50px; font-size: 20px; font-weight: 600;">📊 Tired of freelancers who only know surface-level PPC?</p>
